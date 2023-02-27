@@ -9,3 +9,4 @@
 ### mentor menjelaskan mengenai software tester (berbasis website) dengan menggunakan testrail.com.
 ### kemudian mentor (elang bayu segara) juga menjelaskan cara menggunakan testrail, membuat test scenario, case, dan run.
 ### mentor memberikan contoh bagaimana eksekusi di testrail dengan subjek sepulsa.com.
+### mentor juga menjelaskan cara menggunakan todoist developer.
