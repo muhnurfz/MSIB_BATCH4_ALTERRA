@@ -10,6 +10,6 @@
 ### kemudian mentor (elang bayu segara) juga menjelaskan cara menggunakan testrail, membuat test scenario, case, dan run.
 ### mentor memberikan contoh bagaimana eksekusi di testrail dengan subjek sepulsa.com.
 
-## (3) Tracking management tools
+## (3) Tracking Management Tools
 ### mentor juga menjelaskan cara menggunakan todoist developer.
 ### mentor memperkenalkan JIRA dan mentor meminta mentee membuat akun JIRA.
