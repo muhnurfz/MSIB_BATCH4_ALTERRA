@@ -1,4 +1,4 @@
-# Sec 4 - Agile testing
+# Section 4 - Agile testing KELAS D
 
 ## (1) SDLC
 ### pada materi ini mentor menjelaskan tentang SDLC (Software development Life Cycle) dengan metode agile testing
