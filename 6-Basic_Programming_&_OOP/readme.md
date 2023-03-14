@@ -1,4 +1,4 @@
-# Section 6 - Introduction Basic Programming & OOP
+# Section 6 - Introduction Basic Programming & O    OP
 
 ## (1) Basic programming (java)
 ### pada materi ini mentor menekankan tentang sintaks dasar pada java.
