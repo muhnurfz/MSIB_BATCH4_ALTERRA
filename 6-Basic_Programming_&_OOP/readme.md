@@ -8,3 +8,4 @@
 ## (2) Object-oriented programming
 ### pada materi ini, mentor menjelaskan lebih dalam pada materi array.
 ### dimateri ini, mentor menerangkan deklarasi public, private class.
+### mentor juga mebeberkan materi tentang objek dan class lanjutan.
