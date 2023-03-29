@@ -1,4 +1,6 @@
-# README
+# Section 9 - From_Manual_to_Automation_Testing_&_Behaviour_Driven_Development
 
-## REPOSITORY Muhamad Nur FAjjri Zenitandrio (Callsign Andro) as Quality Engginer in Alterra academy
-MSIB MBKM batch 4 2023
+## (1) Behaviour Driven Development
+### dimateri ini, mentee diminta melakukan instalasi cucumber dan maven apache.
+### dimateri ini juga, mentee diminta membuat test case menggunakan tools cucumber.
+### mentee juga diajari tentang gherkin syntax.
