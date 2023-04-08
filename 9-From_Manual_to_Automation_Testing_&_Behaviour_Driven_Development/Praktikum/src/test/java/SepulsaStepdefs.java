@@ -1,3 +1,4 @@
+package starter;
 import io.cucumber.java.PendingException;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
@@ -8,42 +9,46 @@ public class SepulsaStepdefs {
 
     @Given("user ada pada login page")
     public void userAdaPadaLoginPage() {
-        throw new PendingException("Implementasikan aku");
+
+        System.out.println("ini adalah login page");
     }
 
     @When("user memasukan username dan password dengan benar")
     public void userMemasukanUsernameDanPasswordDenganBenar() {
-        throw new PendingException("Implementasikan aku");
+
+        System.out.println("ini adalah login page");
     }
 
     @And("user masukan username benar")
     public void userMasukanUsernameBenar() {
-        throw new PendingException("Implementasikan aku");
+
+        System.out.println("ini adalah login page");
     }
 
     @And("user masukan password benar")
     public void userMasukanPasswordBenar() {
-        throw new PendingException("Implementasikan aku");
+
+        System.out.println("ini adalah login page");
     }
 
     @And("user memilih login")
     public void userMemilihLogin() {
-        throw new PendingException("Implementasikan aku");
+        throw new PendingException();
     }
 
     @Then("user terotentikasi")
     public void userTerotentikasi() {
-        throw new PendingException("Implementasikan aku");
+        throw new PendingException();
     }
 
     @And("user masuk")
     public void userMasuk() {
-        throw new PendingException("Implementasikan aku");
+        throw new PendingException();
     }
 
     @Then("user ada didalam homepage")
     public void userAdaDidalamHomepage() {
-        throw new PendingException("Implementasikan aku");
+        throw new PendingException();
     }
 
     @And("user masukan username")
