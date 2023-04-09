@@ -1,0 +1,525 @@
+{
+  "id": "9ca4d5ce-a1dc-4da8-984b-c6f6d9b7e317",
+  "version": "2.0",
+  "name": "sepulsa",
+  "url": "https://www.sepulsa.com",
+  "tests": [{
+    "id": "1301207a-e6b4-4ff9-855d-8465d076397a",
+    "name": "sepulsa",
+    "commands": [{
+      "id": "20eb1e22-e493-4f1a-bd61-0c4c1de45248",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b26b8365-4581-44b6-8d72-1185bf848379",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x754",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1eb4fc67-bdca-4472-b309-74db87c8b63b",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=#Pulsa path:nth-child(2)",
+      "targets": [
+        ["css=#Pulsa path:nth-child(2)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "f29ff48a-6fc9-41d0-b860-5999e0692306",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=halaman sebelumnya",
+      "targets": [
+        ["linkText=halaman sebelumnya", "linkText"],
+        ["css=a", "css:finder"],
+        ["xpath=//a[contains(text(),'halaman sebelumnya')]", "xpath:link"],
+        ["xpath=//div[@id='react']/div/div/div/div/div/div[2]/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.sepulsa.com/transaction/checkout')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'halaman sebelumnya')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0305b6c8-fc8c-408e-95f4-7cf40f3673e0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.MuiButtonBase-root:nth-child(1)",
+      "targets": [
+        ["css=.MuiButtonBase-root:nth-child(1)", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/header/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e553f76e-abb9-4027-89e3-8afc26d67334",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButtonBase-root:nth-child(1)",
+      "targets": [
+        ["css=.MuiButtonBase-root:nth-child(1)", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/header/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5f00888-28d0-4869-8339-55232709617f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.MuiButtonBase-root:nth-child(1)",
+      "targets": [
+        ["css=.MuiButtonBase-root:nth-child(1)", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/header/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5e2f076-2f82-4a83-a727-aba21eeb909b",
+      "comment": "",
+      "command": "click",
+      "target": "id=Ellipse_1043",
+      "targets": [
+        ["id=Ellipse_1043", "id"],
+        ["css=#Ellipse_1043", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "576bc24e-1a49-4a38-b5bc-6fbd36c7fdde",
+      "comment": "",
+      "command": "click",
+      "target": "css=#Telkom\\ \\&\\ Indihome > img",
+      "targets": [
+        ["css=#Telkom\\ \\&\\ Indihome > img", "css:finder"],
+        ["xpath=//img[@alt='logo Telkom & Indihome']", "xpath:img"],
+        ["xpath=//div[@id='Telkom & Indihome']/img", "xpath:idRelative"],
+        ["xpath=//div[4]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df43b660-cb23-4157-b0bb-c54aa3d85eff",
+      "comment": "",
+      "command": "click",
+      "target": "id=input_id_telkom",
+      "targets": [
+        ["id=input_id_telkom", "id"],
+        ["css=#input_id_telkom", "css:finder"],
+        ["xpath=//input[@id='input_id_telkom']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[3]/div/div/div/div/div/div/label/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8337533-2a97-4c15-a7b8-2e4fccf1badf",
+      "comment": "",
+      "command": "click",
+      "target": "id=input_id_telkom",
+      "targets": [
+        ["id=input_id_telkom", "id"],
+        ["css=#input_id_telkom", "css:finder"],
+        ["xpath=//input[@id='input_id_telkom']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[3]/div/div/div/div/div/div/label/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c78e2ce6-1f68-440e-97fd-f56991a7762d",
+      "comment": "",
+      "command": "type",
+      "target": "id=input_id_telkom",
+      "targets": [
+        ["id=input_id_telkom", "id"],
+        ["css=#input_id_telkom", "css:finder"],
+        ["xpath=//input[@id='input_id_telkom']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[3]/div/div/div/div/div/div/label/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "08569462363"
+    }, {
+      "id": "91b8c89f-ad1a-46a4-b6c2-72bebc76d07e",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=input_id_telkom",
+      "targets": [
+        ["id=input_id_telkom", "id"],
+        ["css=#input_id_telkom", "css:finder"],
+        ["xpath=//input[@id='input_id_telkom']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[3]/div/div/div/div/div/div/label/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "e657fffe-ba9f-4aa5-b08d-0c9e526f4a0d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=submit_id_telkom",
+      "targets": [
+        ["id=submit_id_telkom", "id"],
+        ["css=#submit_id_telkom", "css:finder"],
+        ["xpath=//button[@id='submit_id_telkom']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cek Tagihan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e4cdfb4-4773-42b6-a649-2d322225a022",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit_id_telkom",
+      "targets": [
+        ["id=submit_id_telkom", "id"],
+        ["css=#submit_id_telkom", "css:finder"],
+        ["xpath=//button[@id='submit_id_telkom']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cek Tagihan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5b7b702-5927-468e-9587-29d0b8eb1e0e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=submit_id_telkom",
+      "targets": [
+        ["id=submit_id_telkom", "id"],
+        ["css=#submit_id_telkom", "css:finder"],
+        ["xpath=//button[@id='submit_id_telkom']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[4]/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cek Tagihan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fcbf05d0-67c3-49ce-afa1-b9ed7f9227b8",
+      "comment": "",
+      "command": "click",
+      "target": "css=#Bayar\\ Tagihan #product_type_3",
+      "targets": [
+        ["css=#Bayar\\ Tagihan #product_type_3", "css:finder"],
+        ["xpath=(//div[@id='product_type_3'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='Bayar Tagihan']/div/div[4]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f95a724-5279-491f-8dc0-9ad9638a7297",
+      "comment": "",
+      "command": "click",
+      "target": "css=.title > p",
+      "targets": [
+        ["css=.title > p", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div[2]/div[4]/div/div[2]/div/div/div/div/div/p", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Cek dan Bayar BPJS Kesehatan Cepat, Mudah, dan Aman di Sepulsa')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fcf318dd-482b-4e93-86f0-efdb237fc0da",
+      "comment": "",
+      "command": "click",
+      "target": "id=input_id_bpjs",
+      "targets": [
+        ["id=input_id_bpjs", "id"],
+        ["css=#input_id_bpjs", "css:finder"],
+        ["xpath=//input[@id='input_id_bpjs']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[2]/div/div/div/div/div/div/label/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "76c6bd68-9689-4379-87e4-f8147568d652",
+      "comment": "",
+      "command": "click",
+      "target": "id=placeholder_period_bpjs",
+      "targets": [
+        ["id=placeholder_period_bpjs", "id"],
+        ["css=#placeholder_period_bpjs", "css:finder"],
+        ["xpath=//p[@id='placeholder_period_bpjs']", "xpath:attributes"],
+        ["xpath=//div[@id='input_component']/div/p", "xpath:idRelative"],
+        ["xpath=//div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Pilih Periode Bayar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6b29484-e3e1-4bd6-bccc-494cb72c2a9b",
+      "comment": "",
+      "command": "click",
+      "target": "id=react-select-2-option-0",
+      "targets": [
+        ["id=react-select-2-option-0", "id"],
+        ["css=#react-select-2-option-0", "css:finder"],
+        ["xpath=//div[@id='react-select-2-option-0']", "xpath:attributes"],
+        ["xpath=//div[@id='input_menu']/div/div", "xpath:idRelative"],
+        ["xpath=//label/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f3327f1-870a-4720-9792-430ce6affc18",
+      "comment": "",
+      "command": "click",
+      "target": "css=label > p",
+      "targets": [
+        ["css=label > p", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div[2]/div/div/div/div/div/div/label/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Nomor BPJS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "90c0f503-96b5-4a43-89c9-6d66accc9331",
+      "comment": "",
+      "command": "click",
+      "target": "id=input_id_bpjs",
+      "targets": [
+        ["id=input_id_bpjs", "id"],
+        ["css=#input_id_bpjs", "css:finder"],
+        ["xpath=//input[@id='input_id_bpjs']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[2]/div/div/div/div/div/div/label/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "afb6b30f-22f9-4649-94ca-970902c09701",
+      "comment": "",
+      "command": "type",
+      "target": "id=input_id_bpjs",
+      "targets": [
+        ["id=input_id_bpjs", "id"],
+        ["css=#input_id_bpjs", "css:finder"],
+        ["xpath=//input[@id='input_id_bpjs']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[2]/div/div/div/div/div/div/label/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "8546549841651446"
+    }, {
+      "id": "32076000-590b-4fb5-bc4e-3537f5500e49",
+      "comment": "",
+      "command": "click",
+      "target": "css=.intro",
+      "targets": [
+        ["css=.intro", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div[2]/div[4]/div/div/p", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Keuntungan Bertransaksi Online di Sepulsa')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7b1536b-ce60-4e81-89ee-7e9a454b25df",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.MuiButton-label",
+      "targets": [
+        ["css=.MuiButton-label", "css:finder"],
+        ["xpath=//button[@id='check_inquiry_bpjs']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Cek Tagihan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6bcb232f-da21-421e-929b-2592dddd783e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButton-label",
+      "targets": [
+        ["css=.MuiButton-label", "css:finder"],
+        ["xpath=//button[@id='check_inquiry_bpjs']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Cek Tagihan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f11064bc-d4ff-4cad-afb6-f9adbe4e3832",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.MuiButton-label",
+      "targets": [
+        ["css=.MuiButton-label", "css:finder"],
+        ["xpath=//button[@id='check_inquiry_bpjs']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Cek Tagihan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "73d4a24b-7602-481b-bc95-6238d9c2638d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,196)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b841bd5a-f4e3-4eb7-ae86-afe1eb9d23c3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#button_profile svg",
+      "targets": [
+        ["css=#button_profile svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "62accd0e-4251-4ab6-bba8-e6a762fc50ff",
+      "comment": "",
+      "command": "click",
+      "target": "css=#button_profile svg",
+      "targets": [
+        ["css=#button_profile svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "2357bd6f-2df3-4fec-9e3e-b36316f9caff",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#button_profile > .MuiBottomNavigationAction-wrapper",
+      "targets": [
+        ["css=#button_profile > .MuiBottomNavigationAction-wrapper", "css:finder"],
+        ["xpath=//button[@id='button_profile']/span", "xpath:idRelative"],
+        ["xpath=//button[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Akun')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb46ac4b-da44-4407-bb0a-2f4e0737c1ea",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#button_profile > .MuiBottomNavigationAction-wrapper",
+      "targets": [
+        ["css=#button_profile > .MuiBottomNavigationAction-wrapper", "css:finder"],
+        ["xpath=//button[@id='button_profile']/span", "xpath:idRelative"],
+        ["xpath=//button[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Akun')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "70f49a7e-10d8-43fe-bb2c-ee66bf437dc0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=button_profile",
+      "targets": [
+        ["id=button_profile", "id"],
+        ["css=#button_profile", "css:finder"],
+        ["xpath=//button[@id='button_profile']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/div[3]/div/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'Akun')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab5037b6-8998-4449-bc8e-a54988bd36a9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiPaper-root:nth-child(2) .MuiListItem-root:nth-child(2)",
+      "targets": [
+        ["css=.MuiPaper-root:nth-child(2) .MuiListItem-root:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div[2]/div/ul/li[2]", "xpath:idRelative"],
+        ["xpath=//li[2]", "xpath:position"],
+        ["xpath=//li[contains(.,'Beri Penilaian')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "13003847-4068-4373-b182-8daa418f4b2a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiBackdrop-root",
+      "targets": [
+        ["css=.MuiBackdrop-root", "css:finder"],
+        ["xpath=//body/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e2df27c-2d93-42aa-a592-33d03c19e947",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#button_history svg",
+      "targets": [
+        ["css=#button_history svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "10f35bff-0ac7-4524-98df-fa08917a0fbf",
+      "comment": "",
+      "command": "click",
+      "target": "css=#button_history svg",
+      "targets": [
+        ["css=#button_history svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "b97a0136-b03d-4255-aba3-2dfc53ba6ca3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cfe947f7-1e68-49cb-a5ce-2f3b70c89001",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiPaper-root:nth-child(1) .post-number",
+      "targets": [
+        ["css=.MuiPaper-root:nth-child(1) .post-number", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div[2]/div[2]/div/div/div/div[2]/p[2]", "xpath:idRelative"],
+        ["xpath=//p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'Pulsa Indosat Rp 5.000 (085694926236)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f815a439-6d49-46d2-9694-9e81e4d86a49",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.MuiButtonBase-root:nth-child(1)",
+      "targets": [
+        ["css=.MuiButtonBase-root:nth-child(1)", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/header/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2084401e-7e91-4aa3-be4c-16731259cbfc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButtonBase-root:nth-child(1)",
+      "targets": [
+        ["css=.MuiButtonBase-root:nth-child(1)", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/header/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc4a6793-8e8f-4f80-8ccc-145d3d767bbb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#button_home svg",
+      "targets": [
+        ["css=#button_home svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "403d818c-e55d-43cc-8639-660a508ddb4c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#button_home svg",
+      "targets": [
+        ["css=#button_home svg", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "fc868b9f-e62e-4669-ace8-4d78ca3c5602",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1301207a-e6b4-4ff9-855d-8465d076397a"]
+  }],
+  "urls": ["https://www.sepulsa.com/"],
+  "plugins": []
+}
