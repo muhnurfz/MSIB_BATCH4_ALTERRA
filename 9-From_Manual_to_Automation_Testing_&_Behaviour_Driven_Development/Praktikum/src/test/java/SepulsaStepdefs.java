@@ -12,7 +12,6 @@ public class SepulsaStepdefs {
 
         System.out.println("ini adalah login page");
     }
-
     @When("user memasukan username dan password dengan benar")
     public void userMemasukanUsernameDanPasswordDenganBenar() {
 
