@@ -90,19 +90,19 @@ Feature: login
     And namun user tidak memilih kotnak
     Then user tidak dapat mengirim pesan
 
-    @Jobs
-    Scenario: user ada dihomepage kemudian memilih halaman jobs
-      Given user ada pada homepage
-      And user memilih menu jobs
-      Then user ada dihalaman jobs
+  @Jobs
+  Scenario: user ada dihomepage kemudian memilih halaman jobs
+    Given user ada pada homepage
+    And user memilih menu jobs
+    Then user ada dihalaman jobs
 
-      @jobs
-      Scenario: user memilih salah satu perusaahan dan apply jobs
-        Given user pada halaman jobs
-        And user memilih perusahaan
-        Then user dapat membaca deskripsi perusahaan
-        And user dapat informasi
-        Then user dapat mengirim pesan kepada CP (contact person) perusahaan
+  @jobs
+  Scenario: user memilih salah satu perusaahan dan apply jobs
+    Given user pada halaman jobs
+    And user memilih perusahaan
+    Then user dapat membaca deskripsi perusahaan
+    And user dapat informasi
+    Then user dapat mengirim pesan kepada CP (contact person) perusahaan
 
 
 
